@@ -1,0 +1,443 @@
+main{
+    background: white;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/******************** HEADER STYLING ********************/
+
+header{
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 115px;
+    background: #e0ebe8;
+    position: fixed;
+}
+.menu{
+    float: right;
+    margin-right: 200px;
+}
+.menu li{
+    float: left;
+    width: 58px;
+    height: 35px;
+    margin: 42px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #45b29a;
+    font-size: 21px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.menu li a:hover{
+    color:#545454 ;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.boy-image{
+    border-radius: 100%;
+    background: #a4d7e1;
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: 12px;
+    left: 290px;
+    z-index: 2;
+}
+.menu li a.current{
+    color: #545454;
+}
+
+/******************** ABOT PAGE STYLING ********************/
+
+.master-wrap{
+    background: #e0ebe8; 
+    height: 400px;
+}
+.cloud-1{
+    display: inline-block;
+    height: 135px;
+    width: 135px;
+    position: relative;
+    top: 150px;
+    left: 1050px;
+}
+.cloud-2{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: 250px;
+    left: -150px;
+}
+.deepak{
+    display: inline;
+    color:  #16a393;
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    letter-spacing: 7px;
+    position: relative;
+    top: 180px;
+    left: 350px;
+}
+.deepak span{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 130px;
+    left: 150px;
+    letter-spacing: 3px;
+}
+.wrap-1{
+    height: 550px;
+    background: #e0ebe8;
+}
+.man{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    bottom: 170px;
+    left: 320px;
+    border-radius: 20%;
+}
+.man-1{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    left: 900px;
+}
+.city{
+    display: block;
+    margin: 0px auto;
+    height: 350px;
+}
+.icon{
+    display: block;
+    margin: 0px auto;
+    height: 50px;
+    position: relative;
+    top: 50px;
+}
+.dots{
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    left: 640px;
+    top: 30px;
+    bottom: 30px;
+}
+.wrap-2{
+    background: white;
+    height: 420px;
+    margin-top: 0;
+}
+.wrap-3{
+    background: white;
+    height: 230px;
+}
+.img-1{
+    border-radius: 100%;
+    background: #a4d7e1;
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin: 30px auto;
+}
+.deepak-1{
+    text-align: center;
+    margin-top: -10px;
+    color:  #16a393;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.normal-text-1{
+    text-align: center;
+    width: 550px;
+    display: block;
+    margin: 0px auto;
+    font-size: 1.3em;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #545454;
+    word-spacing: 1px;
+}
+.normal-text-1 span{
+    color:  #16a393;
+}
+.deepak-2{
+    text-align: center;
+    margin-top: -10px;
+    color:  #16a393;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.float{
+    display: block;
+    margin: 18px auto;
+    width: 550px;
+    float: left;
+}
+.img-2{
+    border-radius: 100%;
+    background: #a4d7e1;
+    height: 125px;
+    width: 125px;
+    display: inline-block;
+    margin-left: 250px;
+}
+.small-dots{
+    display: inline-block;
+    width: 25px;
+    position: relative;
+    left: 5px;
+    bottom: 40px;
+}
+.deepak-3{
+    display: block;
+    margin: 10px auto;
+    color:  #16a393;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 600px;
+}
+.gif{
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.float-right{
+    display: block;
+    margin: 18px auto;
+    width: 650px;
+    float: right;
+}
+.deepak-4{
+    display: inline-block;
+    margin-left: 310px;
+    color:  #16a393;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.normal-text-2{
+    display: block;
+    text-align: center;
+    margin-left: 260px;
+    margin-top: -20px;
+    width: 400px;
+    font-size: 1.3em;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #545454;
+    word-spacing: 1px;
+}
+.crazy-1{
+    height: 550px;
+    display: block;
+    margin: 50px auto;
+}
+.img-3{
+    border-radius: 100%;
+    background: #a4d7e1;
+    height: 125px;
+    width: 125px;
+    display: inline-block;
+    margin-left: 5px;
+}   
+.btn{
+    font-size: 1.3em;
+    text-align: center;
+    position: relative;
+    background: #45b29a;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: .55em 1em .55em 1em;
+    color: #545454;
+    text-decoration: none;
+    font-weight: normal;
+    border: 0;
+    text-transform: uppercase;
+    line-height: 1.7;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-radius: 5%;
+}
+.btn:hover{
+    color: rgba(255, 166, 0, 0.904);
+    opacity: 0.8;
+}
+.menu-1{
+    float: right;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+.menu-1 li{
+    float: left;
+    width: 140px;
+    height: 35px;
+    margin: 42px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+.menu-1 li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #09463a;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.menu-1 li a:hover{
+    color: orange;
+}
+.color-slide{
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+}
+.part-1{
+    background: url(../images/crazy-7.jpeg) 0 0 no-repeat;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.part-2{
+    background: url(../images/crazy-7.jpeg) 0 0 no-repeat;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: relative; 
+}
+.focus{
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    display: block;
+    margin: 100px 100px;
+    font-size: 100px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.part-2 img{
+    margin-top: 3px;
+}
+.about{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+    opacity: 0.9;
+}
+.about-language{
+    width: 30%;
+    height: 100%;
+    background: #45b29a;
+    text-align: center;
+    word-spacing: 20px;
+    float: left;
+}
+.about-me{
+    height: 100%;
+    background: #545454;
+}
+.about-me img{
+    border: 8px solid #fff;
+}
+.about-language img:hover{
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
+.me{
+    display: inline-block;
+    position: absolute;
+    width: 740px;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.me:hover{
+    opacity: 1;
+}
+.deepak-5{
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;  
+}
+.deepak-5 span{
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive; 
+}
+.deepak-5 span:hover{
+    color: orange;
+}
+.knowledge{
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    display: block;
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    opacity: 0.99;
+}
+
+/******************** FOOTER STYLING ********************/
+
+footer{
+    width: 100%;
+    margin-top: 0px;
+    background: #16a393;
+    height: 160px;
+    opacity: 0.9;
+}
+footer:hover{
+    opacity: 1;
+}
+.copyright{
+    color: #424040;    
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 520px;
+    margin-top: -10px   ;   
+}
+
+.menu-1 img:hover{
+    opacity: 0.6;
+    transform: rotate(10deg);
+}
+
+/********************  WORKS STYLING ********************/
+
+
+
