@@ -1,2 +1,3 @@
 # HTML and CSS ! Portfolio Design
-A about page portfolio designed to sharpen the html and css knowledge....Dont forget to wireframe your website.
+My old portfolio at my intermidiate level   Its fun to make this type of websites to sharpen your knowledge!....Dont forget to wireframe your website.
+Link To Website: https://deathook007.github.io/Portfolio-old-html-css/
