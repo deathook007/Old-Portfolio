@@ -25,5 +25,4 @@ The website is made using div on div stategy and is easily converted to responsi
 
 ![screenshot](https://github.com/deathook007/Portfolio-html-css/blob/master/images/Deepak%20Bhatt%F0%9F%A4%96%20-FocusOn.png)
 
-## Improvement Required
-- Responsive nature 
+
