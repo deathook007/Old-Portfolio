@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 main{
     background: white;
     width: 100%;
